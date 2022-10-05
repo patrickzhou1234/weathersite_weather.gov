@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link id="favicon" rel="shortcut icon" href="" type="image/x-icon">
+    <script src="jquery-3.2.1.js"></script>
+    <title>Weather</title>
+</head>
+<body>
+    <div id="fulloc"><span id="location"></span> (<span id="time"></span>)</div>
+    <div id="temp"></div>
+    <div id="shortcast"></div>
+    <img id="weatherimg" src="">
+    <div id="detailpanel">
+        <span id="windspeedcont" class="detailsec">Wind Speed: <span id="windspeed"></span></span>
+        <br>
+        <span id="uvcont" class="detailsec">Current UV Index: <span id="uvind"></span></span>
+        <br>
+        <span id="maxuvcont" class="detailsec">Max UV Index: <span id="uvmax"></span></span>
+        <br>
+        <span id="ozonecont" class="detailsec">Ozone: <span id="ozone"></span></span>
+        <br>
+        <span id="sunrisecont" class="detailsec">Local sunrise: <span id="sunrise"></span></span>
+        <br>
+        <span id="sunsetcont" class="detailsec">Local sunset: <span id="sunset"></span></span>
+    </div>
+    <div id="credits">Data fetched from <a id="weathergov" target="_blank" href="https://www.weather.gov/">weather.gov</a></div>
+    <script src="script.js"></script>
+</body>
+</html>

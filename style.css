@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'amazon-ember';
+    src: URL('Amazon-Ember-Medium.ttf') format('truetype');
+}
+
+body {
+    background-color: #1D2333;
+    overflow-x: hidden;
+}
+
+img {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    user-drag: none;
+    -webkit-user-drag: none;
+}
+
+#fulloc {
+    margin-top: 2vh;
+    font-size: calc(2vw + 2vh);
+    color: white;
+    text-align: center;
+    font-family: 'amazon-ember';
+}
+
+#temp {
+    margin-top: 2vh;
+    font-size: calc(4vw + 4vh);
+    text-align: center;
+    color: white;
+    font-family: 'amazon-ember';
+    opacity: 0;
+}
+
+#weatherimg {
+    width: 30vmin;
+    height: 30vmin;
+    left: 100vw;
+    top: calc(50vh - 15vmin);
+    position: absolute;
+}
+
+#shortcast {
+    margin-top: 2vh;
+    font-size: calc(2vw + 2vh);
+    text-align: center;
+    color: white;
+    font-family: 'amazon-ember';
+    opacity: 0;
+}
+
+#credits {
+    font-family: 'amazon-ember';
+    font-size: calc(1vw + 1vh);
+    color: white;
+    position: absolute;
+    right: 80vw;
+    bottom: 0vh;
+    opacity: 0;
+}
+
+#weathergov {
+    color: lightskyblue;
+}
+
+#detailpanel {
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 16px;
+    width: 60vw;
+    height: 30vh;
+    left: 20vw;
+    top: 65vh;
+}
+
+.detailsec {
+    font-size: calc(1vw + 1vh);
+    color: white;
+    margin: 0.5vmin;
+    font-family: 'amazon-ember';
+}
